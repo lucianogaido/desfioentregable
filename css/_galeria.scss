@@ -1,0 +1,120 @@
+@mixin galeria {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    & .contenedor {
+
+        display: grid;
+        justify-content: center;
+        grid-gap: 0.5rem;
+        width: 70rem;
+        height: 50rem;
+        margin-top: 2rem;
+        margin-bottom: 6.2rem;
+        grid-template-areas:
+            "caja1 caja2 caja3 caja3"
+            "caja1 caja4 caja5 caja6"
+            "caja7 caja4 caja8 caja8"
+        ;
+
+        & .caja {
+            min-height: 15rem;
+            min-width: 15rem;
+            border-radius: 0.5rem;
+        }
+
+        & .caja:hover {
+            transform: scale(1.2);
+            transition: all 0.7s;
+            box-shadow: 5px 10px 18px #888888;
+        }
+
+        & .caja1 {
+            grid-area: caja1;
+            background-image: url(../assets/conservas/pikles1.png);
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        & .caja2 {
+            grid-area: caja2;
+            background-image: url(../assets/mermeladas/arandanos.png);
+            @include galeria;
+        }
+
+        & .caja3 {
+            grid-area: caja3;
+            background-image: url(../assets/mermeladas/frutilla.png);
+            @include galeria;
+        }
+
+        & .caja4 {
+            grid-area: caja4;
+            background-image: url(../assets/conservas/ajies.png);
+            @include galeria;
+        }
+
+        & .caja5 {
+            grid-area: caja5;
+            background-image: url(../assets/blends/blend1.png);
+            @include galeria;
+        }
+
+        & .caja6 {
+            grid-area: caja6;
+            background-image: url(../assets/blends/blend2.png);
+            @include galeria;
+
+        }
+
+        & .caja7 {
+            grid-area: caja7;
+            background-image: url(../assets/mermeladas/frambuesa.png);
+            background-position: left;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        & .caja8 {
+            grid-area: caja8;
+            background-image: url(../assets/conservas/conservas.png);
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+/* Media Queries */
+@media (max-width: 990px) {
+    main {
+        & .contenedor {
+            overflow: auto;
+            grid-template-areas:
+                "caja2"
+                "caja1"
+                "caja5"
+                "caja8"
+                "caja7"
+                "caja6"
+                "caja4"
+                "caja3"
+            ;
+
+            & .caja {
+                min-height: 20rem;
+                min-width: 20rem;
+            }
+
+            & .caja:hover {
+                transform: none;
+                transition: none;
+                box-shadow: none;
+            }
+        }
+    }
+}

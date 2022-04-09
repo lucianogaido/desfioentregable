@@ -1,0 +1,81 @@
+{
+    "productos" : [{
+        "id": 1,
+        "titulo":"Mermelada de Arandanos",
+        "precio": 500,
+        "stock": 10,
+        "cantidad": 0,
+        "img": "../assets/mermeladas/arandanos.png"
+    },
+    {
+        "id": 2,
+        "titulo": "Mermelada de Ciruela",
+        "precio": 500,
+        "stock": 5,
+        "cantidad": 0,
+        "img": "../assets/mermeladas/ciruela.png"
+    },
+    {
+        "id": 3,
+        "titulo": "Mermelada de Durazno",
+        "precio": 500,
+        "stock": 100,
+        "cantidad": 0,
+        "img": "../assets/mermeladas/durazno.png"
+    },
+    {
+        "id": 4,
+        "titulo": "Mermelada de Frambuesa",
+        "precio": 500,
+        "stock": 100,
+        "cantidad": 0,
+        "img": "../assets/mermeladas/frambuesa.png"
+    
+    },
+    {
+        "id": 5,
+        "titulo": "Mermelada de Frutilla",
+        "precio": 500,
+        "stock": 100,
+        "cantidad": 0,
+        "img": "../assets/mermeladas/frutilla.png"
+    
+    },
+    {
+        "id": 6,
+        "titulo": "Mermelada de Kiwi",
+        "precio": 500,
+        "stock": 100,
+        "cantidad": 0,
+        "img": "../assets/mermeladas/kiwi.png"
+    
+    },
+    {
+        "id": 7,
+        "titulo": "Mermelada de Mandarina",
+        "precio": 500,
+        "stock": 100,
+        "cantidad": 0,
+        "img": "../assets/mermeladas/mandarina.png"
+    
+    },
+    {
+        "id": 8,
+        "titulo": "Mermelada de Naranja",
+        "precio": 500,
+        "stock": 6,
+        "cantidad": 0,
+        "img": ""
+    
+    },
+    {
+        "id": 9,
+        "titulo": "Mermelada de Tomate",
+        "precio": 500,
+        "stock": 0,
+        "cantidad": 0,
+        "img": "../assets/mermeladas/tomate.png"
+    
+    }
+    ]
+}

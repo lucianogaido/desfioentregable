@@ -1,0 +1,8 @@
+main {
+    & .producto {
+        & img {
+            width: 20vw;
+            margin-left: 2rem;
+        }
+    }
+}

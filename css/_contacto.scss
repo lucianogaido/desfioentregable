@@ -1,0 +1,38 @@
+main {
+    & div {
+
+        & .article-contacto {
+            text-align: center;
+
+            & form {
+                margin: 3rem;
+                margin-left: 10vw;
+
+            }
+
+            & iframe {
+                margin-top: 4rem;
+                margin-left: 10vw;
+                width: 40vw;
+                height: 20rem;
+            }
+        }
+    }
+}
+
+/* Media Queries */
+@media (max-width: 990px) {
+    main {
+        & div {
+            & .article-contacto {
+                width: 100%;
+                margin: 0%;
+
+                & iframe {
+                    margin-left: 0.5rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

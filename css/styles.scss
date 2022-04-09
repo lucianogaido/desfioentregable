@@ -1,0 +1,22 @@
+@import "variables";
+@import "header";
+@import "main";
+@import "footer";
+@import "productos";
+@import "galeria";
+@import "contacto";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
